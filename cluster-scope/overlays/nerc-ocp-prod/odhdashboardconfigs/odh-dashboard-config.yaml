@@ -19,7 +19,6 @@ spec:
     disableSupport: true
     disableTracking: false
     enablement: false
-    modelMetricsNamespace: ""
   groupsConfig:
     adminGroups: rhods-admins
     allowedGroups: system:authenticated
@@ -49,7 +48,7 @@ spec:
         cpu: "6"
         memory: 16Gi
   notebookController:
-    enabled: true
+    enabled: false
     notebookNamespace: rhods-notebooks
     pvcSize: 1Gi
   notebookSizes:
