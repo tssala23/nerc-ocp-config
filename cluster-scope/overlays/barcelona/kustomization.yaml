@@ -13,6 +13,7 @@ resources:
 - externalsecrets
 - issuers
 - feature/odf
+- machineconfigs
 - certificates
 - secretstores
 
